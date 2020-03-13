@@ -17,7 +17,7 @@ module Concerns
 
 
   module ClassMethods
-    def self.save
+    def save
       self.all.value << self
     end
     def all
