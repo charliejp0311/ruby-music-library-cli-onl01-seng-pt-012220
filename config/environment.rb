@@ -21,7 +21,7 @@ module Concerns
       self.all.value << self
     end
     def all
-      @@all
+      self.all
     end
     def destroy_all
       self.all.clear
